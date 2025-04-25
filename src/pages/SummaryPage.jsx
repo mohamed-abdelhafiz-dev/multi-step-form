@@ -13,7 +13,7 @@ export default function SummaryPage() {
 
   return (
     <div className="elements-center flex-col text-center md:w-[74%] mt-10">
-      <img src="../assets/images/icon-thank-you.svg" alt="thank you img" />
+      <img src="assets/images/icon-thank-you.svg" alt="thank you img" />
       <h1 className="text-myDarkBlue text-3xl font-bold mt-5">Thank you!</h1>
       <p className="mt-4 text-gray-500 p-4">
         Thanks for confirming your subscription!We hope you have fun using our

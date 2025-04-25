@@ -16,7 +16,7 @@ export default function OptionCard({ option, planData, setPlanData }) {
       transition-all duration-400 rounded-[5px] flex flex-col items-center`}
     >
       <img
-        src={`../assets/images/${option.icon}`}
+        src={`assets/images/${option.icon}`}
         className="w-[50px] mb-5"
         alt={`${option.name} option`}
       />
