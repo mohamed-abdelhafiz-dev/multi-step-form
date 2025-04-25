@@ -28,7 +28,7 @@ export default function Sidebar() {
       id="sidebar"
       className="p-6 py-8 rounded-[5px] text-white md:w-[26%] md:h-[70vh]"
       style={{
-        backgroundImage: `url(/src/assets/images/bg-sidebar-desktop.svg)`,
+        backgroundImage: `url(../assets/images/bg-sidebar-desktop.svg)`,
         backgroundPosition: "center",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
