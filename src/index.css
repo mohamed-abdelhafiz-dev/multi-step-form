@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+.elements-center {
+  @apply flex justify-center items-center;
+}
+
+.toggle-checkbox:checked {
+  @apply: right-0 border-green-400;
+  right: 0;
+  border-color: #68D391;
+}
+
+.toggle-checkbox:checked+.toggle-label {
+  @apply: bg-green-400;
+  background-color: #68D391;
+}
+
+@theme {
+  --font-main: "main", sans-serif;
+  --color-myGray: #acadb2;
+  --color-myDarkBlue: #072f65;
+  --color-myDarkText: #2e3e5a;
+}
+
+@font-face {
+  font-family: "main";
+  src: url(./assets/fonts/Ubuntu-Regular.ttf) format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "main";
+  src: url(./assets/fonts/Ubuntu-Medium.ttf) format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "main";
+  src: url(./assets/fonts/Ubuntu-Bold.ttf) format("truetype");
+  font-weight: 700;
+}
